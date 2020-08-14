@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-WordPress">
+              <span class="suite-name border-passed">WordPress</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-WordPress">
+                    <span>D:\learning\04 - Maven Framework\src\test\resources\runWordpressTestcases.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-WordPress">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-WordPress">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-WordPress">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-WordPress">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-WordPress">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-WordPress">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-WordPress" class="hide-methods passed suite-WordPress"> (hide)</a> <!-- hide-methods passed suite-WordPress -->
+                      <a href="#" panel-name="suite-WordPress" class="show-methods passed suite-WordPress"> (show)</a> <!-- show-methods passed suite-WordPress -->
+                    </span>
+                    <div class="method-list-content passed suite-WordPress">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WordPress" title="com.wordpress.post.Post_01_CreateViewEditDeletedPost" hash-for-method="Post_01_Creat_New_Post_At_Admin_Page">Post_01_Creat_New_Post_At_Admin_Page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-WordPress -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-WordPress" class="panel WordPress">
+          <div class="suite-WordPress-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.wordpress.post.Post_01_CreateViewEditDeletedPost</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Post_01_Creat_New_Post_At_Admin_Page">
+                  </a> <!-- Post_01_Creat_New_Post_At_Admin_Page -->
+                  <span class="method-name">Post_01_Creat_New_Post_At_Admin_Page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WordPress-class-passed -->
+        </div> <!-- panel WordPress -->
+        <div panel-name="test-xml-WordPress" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\learning\04 - Maven Framework\src\test\resources\runWordpressTestcases.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;WordPress&quot; parallel=&quot;tests&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;commons.MethodListener&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;reportConfig.ExtentListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Run on CHROME&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;https://automationfc.wordpress.com/wp-admin&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.wordpress.post.Post_01_CreateViewEditDeletedPost&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Run on CHROME --&gt;
+&lt;/suite&gt; &lt;!-- WordPress --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-WordPress" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for WordPress</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Run on CHROME (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-WordPress" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for WordPress</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-WordPress" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for WordPress</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_WordPress');
+function tableData_WordPress() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Post_01_Creat_New_Post_At_Admin_Page')
+data.setCell(0, 2, 'com.wordpress.post.Post_01_CreateViewEditDeletedPost')
+data.setCell(0, 3, 50866);
+window.suiteTableData['WordPress']= { tableData: data, tableDiv: 'times-div-WordPress'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 50 seconds</span>
+              <div id="times-div-WordPress">
+              </div> <!-- times-div-WordPress -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-WordPress" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for WordPress</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Post_01_Creat_New_Post_At_Admin_Page</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2020-08-13 15:33:04,097 INFO  com.wordpress.post.Post_01_CreateViewEditDeletedPost - Post_01 - Step 1: Click 'POSTS' menu
+</span>
+                <span class="reporter-method-output">2020-08-13 15:33:13,386 INFO  com.wordpress.post.Post_01_CreateViewEditDeletedPost - Post_01 - Step 2: Click 'Add New' button
+</span>
+                <span class="reporter-method-output">2020-08-13 15:33:20,550 INFO  com.wordpress.post.Post_01_CreateViewEditDeletedPost - Post_01 - Step 3: Input Title
+</span>
+                <span class="reporter-method-output">2020-08-13 15:33:20,965 INFO  com.wordpress.post.Post_01_CreateViewEditDeletedPost - Post_01 - Step 4: Input to Posts content textbox 
+</span>
+                <span class="reporter-method-output">2020-08-13 15:33:21,917 INFO  com.wordpress.post.Post_01_CreateViewEditDeletedPost - Post_01 - Step 5: Select 'TEST COMPLETE' category 
+</span>
+                <span class="reporter-method-output">2020-08-13 15:33:22,022 INFO  com.wordpress.post.Post_01_CreateViewEditDeletedPost - Post_01 - Step 6: Input text to Tag Textbox
+</span>
+                <span class="reporter-method-output">2020-08-13 15:33:22,460 INFO  com.wordpress.post.Post_01_CreateViewEditDeletedPost - Post_01 - Step 7: Click To Add Tags button
+</span>
+                <span class="reporter-method-output">2020-08-13 15:33:22,763 INFO  com.wordpress.post.Post_01_CreateViewEditDeletedPost - Post_01 - Step 8: Click To Set Feature Image Link
+</span>
+                <span class="reporter-method-output">2020-08-13 15:33:23,127 INFO  com.wordpress.post.Post_01_CreateViewEditDeletedPost - Post_01 - Step 9: Click To Upload Files tab
+</span>
+                <span class="reporter-method-output">2020-08-13 15:33:23,404 INFO  com.wordpress.post.Post_01_CreateViewEditDeletedPost - Post_01 - Step 10: Upload image 'image1.png'
+</span>
+                <span class="reporter-method-output">2020-08-13 15:33:23,863 INFO  com.wordpress.post.Post_01_CreateViewEditDeletedPost - Post_01 - Step 11: Verify image1.png uploaded succesful
+</span>
+                <span class="reporter-method-output">2020-08-13 15:33:31,473 INFO  com.wordpress.post.Post_01_CreateViewEditDeletedPost - Post_01 - Step 12: Click to Set Featured Image button
+</span>
+                <span class="reporter-method-output">2020-08-13 15:33:31,746 INFO  com.wordpress.post.Post_01_CreateViewEditDeletedPost - Post_01 - Step 13: Click Publish button
+</span>
+                <span class="reporter-method-output">2020-08-13 15:33:39,945 INFO  com.wordpress.post.Post_01_CreateViewEditDeletedPost - Post_01 - Step 14: Verify 'Post published.' displayed
+</span>
+                <span class="reporter-method-output">2020-08-13 15:33:40,133 INFO  com.wordpress.post.Post_01_CreateViewEditDeletedPost - Post_01 - Step 15: Click to 'Post' menu
+</span>
+                <span class="reporter-method-output">2020-08-13 15:33:41,726 INFO  com.wordpress.post.Post_01_CreateViewEditDeletedPost - Post_01 - Step 16: input post title in search textbox
+</span>
+                <span class="reporter-method-output">2020-08-13 15:33:42,290 INFO  com.wordpress.post.Post_01_CreateViewEditDeletedPost - Post_01 - Step 17: Click Search Post button
+</span>
+                <span class="reporter-method-output">2020-08-13 15:33:43,966 INFO  com.wordpress.post.Post_01_CreateViewEditDeletedPost - Post_01 - Step 18: Verify post displayed in search result
+</span>
+                <span class="reporter-method-output">2020-08-13 15:33:44,143 INFO  com.wordpress.post.Post_01_CreateViewEditDeletedPost - Post_01 - Step 19: Verify post displayed in search result
+</span>
+                <span class="reporter-method-output">2020-08-13 15:33:47,066 INFO  com.wordpress.post.Post_01_CreateViewEditDeletedPost - Post_01 - Step 20: Verify new post display at first
+</span>
+                <span class="reporter-method-output">2020-08-13 15:33:47,351 INFO  com.wordpress.post.Post_01_CreateViewEditDeletedPost - Post_01 - Step 21: Verify post image display above post title
+</span>
+                <span class="reporter-method-output">2020-08-13 15:33:47,406 INFO  com.wordpress.post.Post_01_CreateViewEditDeletedPost - Post_01 - Step 22: Click to 'Automation_Test_Class_16' post
+</span>
+                <span class="reporter-method-output">2020-08-13 15:33:51,338 INFO  com.wordpress.post.Post_01_CreateViewEditDeletedPost - Post_01 - Step 23: verify post category is 'EDIT LIVE CODING'
+</span>
+                <span class="reporter-method-output">2020-08-13 15:33:51,529 INFO  com.wordpress.post.Post_01_CreateViewEditDeletedPost - Post_01 - Step 24: verify post title is 'Automation_Test_Class_16'
+</span>
+                <span class="reporter-method-output">2020-08-13 15:33:51,731 INFO  com.wordpress.post.Post_01_CreateViewEditDeletedPost - Post_01 - Step 25: verify post image displayed
+</span>
+                <span class="reporter-method-output">2020-08-13 15:33:51,942 INFO  com.wordpress.post.Post_01_CreateViewEditDeletedPost - Post_01 - Step 26: verify Post detail is 'New Post Content'
+</span>
+                <span class="reporter-method-output">2020-08-13 15:33:52,138 INFO  com.wordpress.post.Post_01_CreateViewEditDeletedPost - Post_01 - Step 27: verify post title is 'Automation_Test_Class_16'
+</span>
+                <span class="reporter-method-output">2020-08-13 15:33:52,338 INFO  com.wordpress.post.Post_01_CreateViewEditDeletedPost - Post_01 - Step 28: verify author Name display
+</span>
+                <span class="reporter-method-output">2020-08-13 15:33:52,489 INFO  com.wordpress.post.Post_01_CreateViewEditDeletedPost - Post_01 - Step 30: search with Post title
+</span>
+                <span class="reporter-method-output">2020-08-13 15:33:54,718 INFO  com.wordpress.post.Post_01_CreateViewEditDeletedPost - Post_01 - Step 31: verify new post display
+</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-WordPress" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-WordPress" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.wordpress.post.Post_01_CreateViewEditDeletedPost</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(chrome, https://automationfc.wordpress.com/wp-admin)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Post_01_Creat_New_Post_At_Admin_Page</span>
+                <span class="method-start">13091 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">63967 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

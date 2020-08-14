@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="WordPress" parallel="tests" >
+
+<listeners>
+<listener class-name="commons.MethodListener" />
+ <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+ <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+
+<!--  ExtentReport v2 -->
+<!-- <listener class-name="reportConfig.ExtentReportListener" /> -->
+
+<!--  ExtentReport v3 -->
+<!-- <listener class-name="reportConfig.ExtentTestListener" /> -->
+
+<!--  ExtentReport v4 -->
+<listener class-name="reportConfig.ExtentListener" />
+</listeners>
+	<test name="Run on CHROME">
+		<parameter name="browser" value="chrome" />
+		<parameter name="url"
+			value="https://automationfc.wordpress.com/wp-admin" />
+		<classes>
+			<class
+				name="com.wordpress.post.Post_01_CreateViewEditDeletedPost" />
+		</classes>
+	</test>
+                                                                                                                         
+<!--   <test name="Run on FIREFOX"> -->
+<!--   <parameter name="browser" value="firefox" /> -->
+<!--   <parameter name="url" value="https://automationfc.wordpress.com/wp-admin" /> -->
+<!--     <classes> -->
+<!--       <class name="com.wordpress.post.Post_01_CreateViewEditDeletedPost" /> -->
+<!--     </classes> -->
+<!--   </test> -->
+  
+<!--   <test name="Run on EDGE"> -->
+<!--   <parameter name="browser" value="edge" /> -->
+<!--   <parameter name="url" value="https://automationfc.wordpress.com/wp-admin" /> -->
+<!--     <classes> -->
+<!--       <class name="com.wordpress.post.Post_01_CreateViewEditDeletedPost" /> -->
+<!--     </classes> -->
+<!--   </test> -->
+
+<!--   <test name="Run on IE"> -->
+<!--   <parameter name="browser" value="ie" /> -->
+<!--   <parameter name="url" value="https://automationfc.wordpress.com/wp-admin/" /> -->
+<!--     <classes> -->
+<!--       <class name="com.wordpress.post.Post_01_CreateViewEditDeletedPost" /> -->
+<!--     </classes> -->
+<!--   </test> -->
+  
+
+</suite>
